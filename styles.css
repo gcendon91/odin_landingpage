@@ -44,7 +44,7 @@ a{
     display: flex;
     justify-content: space-between;
 }
-button{
+.hero button{
     border-radius: 10px;
     color: #f9faf8;
     border-color: #3882f6;
@@ -94,22 +94,54 @@ button, .sign{
 
 .mainquote{
     background-color: #e5e7eb;
+    height: 300px;
 }
 .quote{
     font-size: 32px;
     color: #1f2937;
     font-style: italic;
     text-align: center;
+    margin-top: 120px;
 }
 .quoted{
     text-align: center;
     padding-left: 700px;
+    margin: 0;
 }
 
 .sign
 {
-    margin: 100px 150px;
-    border-radius: 8px;
+    margin: 50px 50px;
+    border-radius: 4px;
     padding: 15px 75px;
-    
+    color: #f9faf8;   
+    margin-left: auto; 
+    margin-right: auto;
+    width: 700px;
+    height: 100px;
+    display: flex;
+    align-content: center;
+}
+.signbold{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.signnormal{
+    font-size: 16px;
+    margin-top: 0;
+}
+.sign button{
+    border: solid 1px #f9faf8;
+    border-radius: 8px;
+    width: 100px;
+    color: #f9faf8;
+    margin-left: auto;
+    height: 25px;
+    align-self: center;
+}
+
+.footer{
+    color: #f9faf8;
+    text-align: center;
 }
