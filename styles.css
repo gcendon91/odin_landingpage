@@ -13,8 +13,9 @@ body{
     margin-left: 200px;
 }
 
-img{
+.firstimg{
     width: 450px;
+    border-radius: 8px;
 }
 ul{
     list-style: none;
@@ -42,4 +43,73 @@ a{
 .header{
     display: flex;
     justify-content: space-between;
+}
+button{
+    border-radius: 10px;
+    color: #f9faf8;
+    border-color: #3882f6;
+    width: 80px;
+}
+button, .sign{
+    background-color: #3882f6;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.firstcontainer{
+    padding-bottom: 100px;
+    width: 500px;
+}
+
+.information{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    text-align: center;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.images{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 50px;
+}
+.images img{
+    display: flex;
+    border-radius: 8px;
+    width: 150px;
+    height: 150px;
+    border: solid #3882f6;
+}
+.img-subtext p{
+    text-align: center;
+}
+
+.mainquote{
+    background-color: #e5e7eb;
+}
+.quote{
+    font-size: 32px;
+    color: #1f2937;
+    font-style: italic;
+    text-align: center;
+}
+.quoted{
+    text-align: center;
+    padding-left: 700px;
+}
+
+.sign
+{
+    margin: 100px 150px;
+    border-radius: 8px;
+    padding: 15px 75px;
+    
 }
